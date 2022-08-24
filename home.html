@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- add it to the head section of the html file -->
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>PWC</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+
+    <header class="text-gray-400 bg-gray-900 body-font myNav">
+      <header class="text-gray-400 bg-gray-900 body-font">
+        <div
+          class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+        >
+          <a
+            class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+          >
+            <span class="ml-3 text-xl">PlasTic WasTe CalCuLator</span>
+          </a>
+          <nav
+            class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center"
+          >
+            <a class="mr-5 hover:text-white"></a>
+            <a class="mr-5 hover:text-white"></a>
+            <a class="mr-5 hover:text-white"></a>
+            <a class="mr-5 hover:text-white"></a>
+          </nav>
+        </div>
+      </header>
+    </header>
+
+    <!-- form -->
+
+    <div class="main">
+      <div class="inp">
+        <form>
+          <label for="num">PET bottles: (per day)</label><br />
+          <input type="number" name="num1" id="num1" /> <br />
+          <label for="num">Plastic Bags: (per day)</label>
+          <br />
+          <input type="number" name="num2" id="num2" /> <br />
+          <label for="num">Food Wrappers: (per day)</label>
+          <br />
+          <input type="number" name="num3" id="num3" /> <br />
+          <label for="num">Yogurt Containers: (per day) </label>
+
+          <br />
+          <input type="number" name="num4" id="num4" /> <br />
+          <label for="num">Cottons swaps: (per day) </label>
+          <br />
+          <input type="number" name="num5" id="num5" /> <br />
+          <label for="num"
+            >Detergent,cleaning products bottles: (per day)
+          </label>
+          <br />
+          <input type="number" name="num6" id="num6" /> <br />
+          <label for="num"
+            >Sampoo/Shower Gel/ Cosmetic bottles: (per day)
+          </label>
+          <br />
+          <input type="number" name="num7" id="num7" /> <br />
+          <label for="num">Refill Packets: (per day) </label>
+          <br />
+          <input type="number" name="num8" id="num8" /> <br />
+          <label for="num">Toothbrush: (per day) </label>
+          <br />
+          <input type="number" name="num9" id="num9" /> <br />
+          <label for="num">Toothpaste: (per day) </label>
+          <br />
+          <input type="number" name="num10" id="num10" /> <br />
+          <label for="num">Take-Away plastic box: (per day) </label>
+          <br />
+          <input type="number" name="num11" id="num11" /> <br />
+          <label for="num">Take-Away plastic Cup: (per day) </label>
+          <br />
+          <input type="number" name="num12" id="num12" /> <br />
+          <label for="num">Straws: (per day) </label>
+          <br />
+          <input type="number" name="num13" id="num13" /> <br />
+          <label for="num">Disposable cutlery: (per day) </label>
+          <br />
+          <input type="number" name="num14" id="num14" /> <br />
+          <label for="num">Plastic plates : (per day) </label>
+          <br />
+          <input type="number" name="num15" id="num15" /> <br />
+          <label for="num"> Toys, furnitures etc.: (per day) </label>
+          <br />
+          <input type="number" name="num16" id="num16" /> <br />
+        </form>
+      </div>
+
+      <div class="res">
+        <div class="res2">
+          <div id="result"></div>
+          <br />
+          <div id="lifetime"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="home.js"></script>
+  </body>
+</html>

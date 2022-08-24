@@ -1,0 +1,53 @@
+html{
+    background-image: linear-gradient(90deg, #000056, #dd6b20);
+}
+
+.main{
+    display: flex;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+.inp{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+form{
+    font-family: -webkit-body;
+    letter-spacing: 1px;
+}
+label{
+    color: #dbdfed;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.res{
+    flex: 50%;
+    margin-top: 25%;
+}
+
+input{
+    border: 0.5px solid grey;
+    margin: 1%;
+    color: black;
+}
+
+.res2{
+    background-color: rgb(224, 215, 250);
+    padding: 5%;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.myNav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
